@@ -1,0 +1,279 @@
+* {
+    font-family: Trebuchet MS;
+}
+
+
+
+hr {
+	width: 80%;
+	margin: 40px 0;
+	background: #979292;
+}
+
+body{
+    background: #f7f7f7;
+    
+}
+
+.wrapper{ 
+    
+    width: 96%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 2%;
+    
+}
+
+header {
+    background: #e5e5e5;
+    padding: 20px 0;
+
+}
+
+header h1 {
+    margin: 0;
+    padding: 2px 0;
+    background-repeat: no-repeat;
+    width: 170px;
+    float: left;
+    
+    
+}
+
+header nav {
+    float: right;
+    
+    
+}
+
+
+header:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+header nav h2 {
+    line-height: 0px;
+    margin: 0;
+    text-indent: -10000px;
+    
+}
+
+header nav li {
+    
+    list-style-type: none;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;   
+}
+
+header nav li a {
+    
+    text-decoration: none;
+    color: #4e4e4e;
+    text-transform: uppercase;
+    font-weight: bold;    
+}
+
+header nav li a.current {
+    color:#9AA7E3;
+    
+    }
+
+
+#main-banner {
+	background-image:url(images/book-fair-678264_1280.jpg);
+    width: 100%;
+    max-height: 500px;
+    overflow: hidden;
+
+}
+
+#main-banner h1 {
+	color: #ffffff;
+	margin: 100px 20px 5px 20px;
+	font-size: 64px;
+	text-align: center;
+}
+
+#main-banner h4 {
+	color: #ffffff;
+	text-align: center;
+	margin-bottom: 100px;
+}
+
+
+
+footer {
+	background-color:#E5E5E5;
+    padding: 30px 0;
+	color:black;
+	font-size:18px;
+	text-align:center;
+    
+}
+
+
+container{ 
+width:50%; 
+margin-left:40%; 
+margin-right:25%;
+}
+
+#column{ 
+text-align:center;
+}
+
+#products{
+	padding: 30px 0;
+	
+}
+#products h1 {
+	text-align: center;
+	margin: 10px;
+}
+
+.row .col1{
+text-align:center;
+ margin-left:10%; 
+ margin-right:50%; 
+ margin-bottom:5%;
+}
+.row .col2{
+text-align:center;
+ margin-left:50%; 
+ margin-right:10%; 
+ margin-bottom:5%;
+}
+
+.wrapper #products th {
+	text-align:center;}
+	
+#products table{
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+#row #colmn img {
+	align-content:center;
+	width:320px; 
+	height:240px; 
+	margin-right:5%; 
+	margin-top:5%;
+	margin-bottom:5%;
+	
+}
+#products td, #products th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#products tr:nth-child(even){background-color: #f2f2f2;}
+
+#products tr:hover {background-color: #ddd;}
+
+#products th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color:#63A5AD;
+    color: white;
+}
+
+
+.container {
+	max-width:400px;
+	width:100%;
+	margin:0 auto;
+	position:relative;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+	background:#F9F9F9;
+	padding:25px;
+	margin:50px 0;
+}
+
+#contact h3 {
+	color: #F96;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#0CF;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:#09C;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
